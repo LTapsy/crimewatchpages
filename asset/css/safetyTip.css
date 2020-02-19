@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: robotoCondensed;
-    src: url(../font/RobotoCondensed-Regular.ttf.ttf);
+    src: url(../font/RobotoCondensed-Regular.ttf);
 }
 
 *{
@@ -51,31 +51,47 @@ main{
     margin-top:50px;
     display: flex;
     flex-direction: column;
-    padding:20px;
 }
 
-.logo{
-    width:200px;
-    margin:30px 0;
-}
-
-section{
+.dropDown{
     display:flex;
     flex-direction: column;
 }
 
-.logoContainer{
-    justify-content: center;
+.dropDownTitle{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
+    border-bottom: 1px solid #52525250;
+    padding:15px 20px;
 }
 
-.versionContainer{
-    margin-top:20px;
-    font-size:6px;
-    font-family: robotoCondensed;
-    color:#17314b;
+
+
+.info{
+    padding:5px 20px;
+    font-size:14px;
 }
 
-.title{
-    margin:20px 0;
+.collapsable-div{
+    overflow: hidden;
+    height:0px;
+    padding:0px;
+    /* transition:0.4s; */
+}
+
+.expand-div{
+    overflow: hidden;
+    height:100%;
+    padding:5px 20px;
+    /* transition:0.4s; */
+}
+
+.infoList{
+    padding:10px 30px;
+}
+
+.infoList li{
+    list-style-type: disc;
 }
