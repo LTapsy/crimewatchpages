@@ -1,0 +1,32 @@
+@font-face {
+    font-family: roboto;
+    src: url(../font/RobotoMono-Regular.ttf);
+}
+
+*{
+    margin:0;
+    padding:0;
+    font-family: roboto;
+    color:#ffcb02;
+    list-style-type: none;
+    text-decoration:none;
+}
+
+body{
+    background:#17314b;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    height:100vh;
+}
+
+.logo{
+    width:200px;
+    margin:40px 0 20px 0;
+}
+
+ul li{
+    margin:30px 0;
+    font-size:18px;
+}
